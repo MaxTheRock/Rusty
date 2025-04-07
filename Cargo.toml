@@ -1,0 +1,11 @@
+[package]
+name = "g"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+colored = "3.0.0"
+crossterm = "0.29.0"
+ratatui = "0.29.0"
+terminal-menu = "3.0.0"
+tui = "0.19.0"
