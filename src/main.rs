@@ -16,7 +16,7 @@ use std::collections::HashSet;
 fn get_page_info(page: &str) -> (&'static str, &'static str, &'static str) {
     match page {
         "Home" => (
-            "Welcome to your home screen. Here you’ll find your basic stats and property info.",
+            "Welcome to your home screen. Here you'll find your basic stats and property info.",
             "Stats overview",
             "Current property info"
         ),
@@ -62,7 +62,7 @@ fn get_page_info(page: &str) -> (&'static str, &'static str, &'static str) {
         ),
         "Newspaper" => (
             "Read updates, events, and changes in the game world.",
-            "Today’s headlines",
+            "Today's headlines",
             "Archived news"
         ),
         "Jail" => (
@@ -102,7 +102,7 @@ fn get_page_info(page: &str) -> (&'static str, &'static str, &'static str) {
         ),
         "Calendar" => (
             "Track daily and weekly events.",
-            "Today’s events",
+            "Today's events",
             "Upcoming events"
         ),
         "Rules" => (
